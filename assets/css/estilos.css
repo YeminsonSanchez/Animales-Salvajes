@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://images.pexels.com/photos/5214037/pexels-photo-5214037.jpeg?cs=srgb&dl=pexels-taryn-elliott-5214037.jpg&fm=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 100px;
+}
+
+/* Formulario */
+
+#preview {
+  height: 200px;
+  background-image: url(../imgs/lion.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Tabla de Participantes */
+
+#boxAnimales {
+  height: 100%;
+  background: #4948482f;
+}
+
+#boxAnimales div div {
+  transition: all 200ms;
+}
+
+#boxAnimales div > div:hover {
+  box-shadow: 0px 1px 5px 1px;
+}
+
+.participante {
+  max-width: 30%;
+}
+
+/* Modal */
+
+.modal-dialog {
+  max-width: 85% !important;
+}
